@@ -9,7 +9,6 @@ part 'error_response.g.dart';
 )
 class ErrorResponse extends CoreResponse {
   ErrorResponse({
-    super.status,
     super.message,
   });
 

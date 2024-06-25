@@ -8,8 +8,10 @@ part of 'error_response.dart';
 
 ErrorResponse _$ErrorResponseFromJson(Map<String, dynamic> json) =>
     ErrorResponse(
-      status: json['status'] as String?,
       message: json['message'] as String?,
     )
-      ..code = json['code'] as int?
+      ..page = (json['page'] as num?)?.toInt()
+      ..total = (json['total'] as num?)?.toInt()
+      ..totalPages = (json['total_pages'] as num?)?.toInt()
+      ..perPage = (json['per_page'] as num?)?.toInt()
       ..data = json['data'];
