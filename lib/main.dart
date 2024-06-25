@@ -1,3 +1,10 @@
+/* 
+
+Technical Test Flutter
+Name : Dandy Firmansyah Putra
+
+ */
+
 import 'package:flutter/material.dart';
 import 'package:technical_test_flutter/injection.dart';
 import 'package:technical_test_flutter/src/features/users/presentation/bloc/user/user_bloc.dart';
